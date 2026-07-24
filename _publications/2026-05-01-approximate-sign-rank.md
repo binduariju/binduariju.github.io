@@ -13,7 +13,7 @@ We prove that every $m \times n$ sign matrix with approximate sign-rank~$d$ cont
 As an application of our rectangle theorem, we establish a lower bound of $\Omega_{\epsilon,\gamma}(\sqrt{d/\log d})$ on the $\epsilon$-approximate sign-rank of $\gamma$-margin $d$-dimensional half-spaces.
 Prior to our work, the only general lower bound technique known for approximate sign-rank yielded lower bounds of strength $\epsilon^{-1} - 1$, which are constant for fixed~$\epsilon$.
 
-A key ingredient in the proof of our monochromatic rectangle theorem is a new geometric theorem on hyperplane avoidance. We show that for any set of $n$ points in general position in~$\mathbb{R}^d$, there exist $d$ subsets, each of size $d^{-O(d)}\, n$, such that no hyperplane simultaneously splits all of them. The proof of the geometric theorem combines the Forster--Barthe isotropic position theorem, with the Bourgain--Tzafriri restricted invertibility principle.
+A key ingredient in the proof of our monochromatic rectangle theorem is a new geometric theorem on hyperplane avoidance. We show that for any set of $n$ points in general position in $\mathbb{R}^d$, there exist $d$ subsets, each of size $d^{-O(d)}\, n$, such that no hyperplane simultaneously splits all of them. The proof of the geometric theorem combines the Forster--Barthe isotropic position theorem, with the Bourgain--Tzafriri restricted invertibility principle.
 
 Next, we study the relationship between approximate sign-rank and VC dimension. 
 We prove a lower bound on approximate sign-rank in terms of VC dimension, and exhibit concept classes of VC dimension $2$ with large approximate sign-rank.
