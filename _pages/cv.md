@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-[📄 Click here to view my full CV.](/files/cv.pdf)
+[📄 Click here to view my full CV.](https://github.com/binduariju/binduariju.github.io/blob/master/files/CV.pdf)
