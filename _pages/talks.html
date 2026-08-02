@@ -1,12 +1,26 @@
 ---
 layout: archive
-title: "Talks"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-Over the past few years I have had the opportunity to present my work at seminars, workshops, and summer schools. One of my favourite parts of research is sharing ideas and learning from the questions and perspectives of others, and I always enjoy the conversations that continue long after a talk has ended.
+{% assign talks_sorted = site.talks | sort: "date" | reverse %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+<h2>Seminar Talk</h2>
+<hr />
+
+{% for post in talks_sorted %}
+  {% if post.format == "seminar" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Short Presentations and Posters</h2>
+<hr />
+
+{% for post in talks_sorted %}
+  {% if post.format == "short" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
 {% endfor %}
