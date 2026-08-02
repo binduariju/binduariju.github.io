@@ -7,10 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-<p>
-My research interests lie broadly in computational complexity and combinatorics. Below is a list of my publications and preprints. You can also find them on my
-<a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.
-</p>
+I enjoy problems that lie at the intersection of computational complexity, combinatorics, geometry, and algorithms. My work so far has explored ideas ranging from online algorithms to topological data analysis, and more recently, computational complexity and learning theory.
+
+If you would like to read any of these papers, feel free to reach out—I am always happy to chat about them.
+
+{% if site.author.googlescholar %}
+You can also find my publications on [Google Scholar]({{ site.author.googlescholar }}).
+{% endif %}
 
 {% if site.publication_category %}
   {% for category in site.publication_category %}
@@ -20,8 +23,10 @@ My research interests lie broadly in computational complexity and combinatorics.
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2>
-        <hr />
+## {{ category[1].title }}
+
+---
+
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
