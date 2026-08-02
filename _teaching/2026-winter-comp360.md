@@ -8,6 +8,4 @@ date: 2026-01-01
 location: "Montreal, Canada"
 ---
 
-Teaching Assistant for **COMP 360: Algorithm Design** in Winter 2026.
-
-I held office hours, graded assignments, and invigilated and graded exams.
+Held office hours, graded assignments, and invigilated and graded exams.
