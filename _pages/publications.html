@@ -7,12 +7,23 @@ author_profile: true
 
 {% include base_path %}
 
-I enjoy problems that lie at the intersection of computational complexity, combinatorics, geometry, and algorithms. My work so far has explored ideas ranging from online algorithms to topological data analysis, and more recently, computational complexity and learning theory.
+<p>
+  I enjoy problems that lie at the intersection of computational complexity,
+  combinatorics, geometry, and algorithms. My work so far has explored ideas
+  ranging from online algorithms to topological data analysis, and more recently,
+  computational complexity and learning theory.
+</p>
 
-If you would like to read any of these papers, feel free to reach out—I am always happy to chat about them.
+<p>
+  If you would like to read any of these papers, feel free to reach out—I am
+  always happy to chat about them.
+</p>
 
 {% if site.author.googlescholar %}
-You can also find my publications on [Google Scholar]({{ site.author.googlescholar }}).
+  <p>
+    You can also find my publications on
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+  </p>
 {% endif %}
 
 {% if site.publication_category %}
@@ -22,14 +33,18 @@ You can also find my publications on [Google Scholar]({{ site.author.googleschol
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
+
       {% unless title_shown %}
-## {{ category[1].title }}
-
----
-
+        <h2>{{ category[1].title }}</h2>
+        <hr />
         {% assign title_shown = true %}
       {% endunless %}
+
       {% include archive-single.html %}
     {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
