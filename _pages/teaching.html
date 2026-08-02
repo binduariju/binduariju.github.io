@@ -5,12 +5,29 @@ permalink: /teaching/
 author_profile: true
 ---
 
-One of the unexpected joys of graduate school has been teaching.
-
-I enjoy working through ideas with students, especially when a conversation helps transform something that initially feels mysterious into something intuitive. Whether in tutorials, office hours, or one-on-one discussions, teaching has reminded me that mathematics is often best learned together.
-
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<p>
+  I especially enjoy the parts of teaching that involve working through problems
+  with students and discussing why an approach works, not just how to carry it out.
+</p>
+
+{% assign teaching_sorted = site.teaching | sort: "date" | reverse %}
+
+<h2>University Teaching</h2>
+<hr />
+
+{% for post in teaching_sorted %}
+  {% if post.type == "Teaching Assistant" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Tutoring</h2>
+<hr />
+
+{% for post in teaching_sorted %}
+  {% if post.type == "Independent Tutor" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
