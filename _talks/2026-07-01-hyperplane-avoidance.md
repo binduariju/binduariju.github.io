@@ -4,6 +4,7 @@ collection: talks
 type: "Seminar talk"
 permalink: /talks/2026-hyperplane-avoidance
 venue: "Complexity Group Seminar, McGill University"
+format: seminar
 date: 2026-07-01
 date_display: "July 2026"
 location: "Montreal, Canada"
