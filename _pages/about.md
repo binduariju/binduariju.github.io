@@ -15,4 +15,4 @@ Before moving to Montreal for my PhD, I completed my undergraduate degree at IIT
 
 I love thinking deeply, and I enjoy giving myself quiet moments to introspect and philosophize about life. Sometimes those deep thoughts turn into overthinking, and when that happens, I fall back on my family, friends, or a good YouTube rabbit hole. I also find a lot of peace simply wandering through local parks or heading out to catch a beautiful sunrise or sunset.
 
-If you ever want to chat about complexity theory, combinatorics, or exchange notes on the best spots in Montreal to watch the sun go down, please feel free to reach out!
+If you'd ever like to chat about complexity theory, combinatorics, or simply exchange mathematical ideas over a coffee, I'd be delighted to hear from you. And if that conversation happens to end with a walk to watch the sunset somewhere in Montreal, even better.
