@@ -2,6 +2,7 @@
 title: "Computing H_0 for D_4-Filtered Graphs"
 collection: talks
 type: "Short presentation"
+format: short
 permalink: /talks/2024-computing-h0
 venue: "Summer Research School on Applications of Representation Theory in Topological Data Analysis and Geometric Invariant Theory"
 date: 2024-06-01
