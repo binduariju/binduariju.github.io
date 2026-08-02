@@ -6,6 +6,7 @@ permalink: /publication/2025-online-piercing-set
 excerpt: "How much does allowing an online algorithm to change its mind improve what it can achieve?"
 date: 2025-10-01
 venue: "Workshop on Approximation and Online Algorithms (WAOA 2025)"
+paperurl: "https://dl.acm.org/doi/10.1007/978-3-032-06706-7_2"
 citation: 'Bindua, R., De, M., Garg, N., & Singla, K. (2025). <i>The Online Piercing Set Problem with Recourse</i>. Proceedings of WAOA 2025.'
 ---
 
