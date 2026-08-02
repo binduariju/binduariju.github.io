@@ -11,4 +11,4 @@ location: "Chennai Mathematical Institute, Chennai, India"
 excerpt: "An expository presentation prepared under the mentorship of Professor Osamu Iyama."
 ---
 
-I prepared this short expository presentation on tilting theory under the mentorship of Professor Osamu Iyama during the BIRS workshop on quivers in representation theory.
+I prepared this short expository presentation on tilting theory under the mentorship of Professor Osamu Iyama and Amit Shah during the BIRS workshop on quivers in representation theory.
