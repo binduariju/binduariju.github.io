@@ -6,6 +6,7 @@ permalink: /publication/2024-decomposing-persistent-homology
 excerpt: "An algebraic approach to understanding persistent homology over rooted tree filtrations."
 date: 2024-11-28
 paperurl: "https://arxiv.org/abs/2411.19319"
+share: false
 citation: 'Bindua, R., Brüstle, T., & Scoccola, L. (2024). <i>Decomposing Zero-Dimensional Persistent Homology over Rooted Tree Quivers</i>. Preprint.'
 ---
 
